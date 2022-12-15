@@ -14,7 +14,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_BSPC, KC_A   , KC_S   , KC_D         , KC_F                             , KC_J   , KC_K   , KC_L   , KC_SCLN, KC_QUOT,
         KC_ESC , KC_Z   , KC_X   , KC_C         , KC_V                             , KC_M   , KC_COMM, KC_DOT , KC_SLSH, KC_MINS,
 
-        MO(2)  , KC_LSFT, KC_RALT, OSM(MOD_RALT), KC_LCTL                          , KC_RCTL, KC_LALT, KC_RALT, KC_RSFT, MO(2)  ,
+        MO(2)  , KC_LSPO, KC_RALT, OSM(MOD_RALT), KC_LCTL                          , KC_RCTL, KC_LALT, KC_RALT, KC_RSPC, MO(2)  ,
 
                                                             KC_LGUI, /* these columns work in reverse order */
                                                             KC_B,
@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_BSPC, KC_A   , KC_S   , KC_H         , KC_T                             , KC_N   , KC_E   , KC_O   , KC_I   , KC_QUOT,
         KC_ESC , KC_Z   , KC_X   , KC_M         , KC_C                             , KC_L   , KC_COMM, KC_DOT , KC_SLSH, KC_MINS,
 
-        MO(2)  , KC_LSFT, KC_RALT, OSM(MOD_RALT), KC_LCTL                          , KC_RCTL, KC_LALT, KC_RALT, KC_RSFT, MO(2)  ,
+        MO(2)  , KC_LSPO, KC_RALT, OSM(MOD_RALT), KC_LCTL                          , KC_RCTL, KC_LALT, KC_RALT, KC_RSPC, MO(2)  ,
 
                                                             KC_LGUI,
                                                             KC_V,
